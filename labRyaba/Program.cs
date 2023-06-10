@@ -22,11 +22,11 @@ namespace labRyaba
             b_type = Convert.ToInt32(Console.ReadLine());
 
 
-            if (e_type==1 || e_type==2 && b_type==1)
+            if ((e_type==1 || e_type==2) && b_type==1)
                 truck = new TwoAxisTruck(name, e_type.ToString(), b_type.ToString());
             else if (e_type==3 && b_type==2)
                 truck = new ThreeAxisTruck(name, e_type.ToString(), b_type.ToString());
-            else if (e_type==4 && b_type==3 || b_type==4 )
+            else if (e_type==4 && (b_type==3 || b_type==4))
                 truck = new FourAxisTruck(name, e_type.ToString(), b_type.ToString());
             else truck = new Default(name);
 
