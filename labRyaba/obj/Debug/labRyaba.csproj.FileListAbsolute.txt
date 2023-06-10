@@ -1,0 +1,8 @@
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\bin\Debug\labRyaba.exe.config
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\bin\Debug\labRyaba.exe
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\bin\Debug\labRyaba.pdb
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\obj\Debug\labRyaba.csproj.AssemblyReference.cache
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\obj\Debug\labRyaba.csproj.SuggestedBindingRedirects.cache
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\obj\Debug\labRyaba.csproj.CoreCompileInputs.cache
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\obj\Debug\labRyaba.exe
+C:\Users\fedor\Desktop\repositories\labRyaba\labRyaba\obj\Debug\labRyaba.pdb
