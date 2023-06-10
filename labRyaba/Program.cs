@@ -9,7 +9,7 @@ namespace labRyaba
 {
     internal class Program
     {
-        static Timer t;
+        
         static void Main(string[] args)
         {
             
@@ -18,17 +18,11 @@ namespace labRyaba
             Station station = new Station();
 
             station.add(ob);
-            SetTimer(station);
+            station.start(10);
             station.remove(ob);
 
         }
 
-        public static void SetTimer(Station s)
-        {
-            t = new Timer(1000);
-            s.start(10);
-            t.AutoReset = true;
-            t.Enabled = true;
-        }
+        
     }
 }

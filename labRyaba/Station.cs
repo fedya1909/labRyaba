@@ -3,13 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace labRyaba
 {
+    
     public class Station
     {
+        static Timer t;
         private List<IObserverable> ob;
 
         public Station()
@@ -43,7 +45,15 @@ namespace labRyaba
                 NotifyAll(getRandomInRange(random, -25, 30), getRandomInRange(random, 10, 100),
                         getRandomInRange(random, 10, 100));
             }
+            SetTimer();
+        }
+        public static void SetTimer()
+        {
+            t = new Timer(10000000);
+            //t.AutoReset = true;
+            //t.Enabled = true;
         }
 
     }
+    
 }
