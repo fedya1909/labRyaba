@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace labRyaba
 {
-    public class Default : AbstractTruck
+    public interface IObserverable
     {
-
-        public Default(string name) : base(name)
-        {
-
-        }
+        void NotifyOb(int t, int p, int h);
     }
 }
