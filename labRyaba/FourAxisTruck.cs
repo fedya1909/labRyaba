@@ -21,12 +21,12 @@ namespace labRyaba
 
         public override string GetBodyType()
         {
-            return base.GetBodyType();
+            return body_type;
         }
 
         public override string GetEngineType()
         {
-            return base.GetEngineType();
+            return engine_type;
         }
     }
 }
