@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace labRyaba
 {
-    public enum PizzaType
+    public interface IObserver : IHavingName
     {
-        TYPE1, 
-        TYPE2
+        void Update(string message);
     }
 }
