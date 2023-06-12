@@ -12,14 +12,7 @@ namespace labRyaba
         
         static void Main(string[] args)
         {
-            
-
-            IObserverable ob = new Device();
-            Station station = new Station();
-
-            station.add(ob);
-            station.start(10);
-            station.remove(ob);
+            Pizzeria pizzeria;
 
         }
 
